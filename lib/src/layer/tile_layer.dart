@@ -305,9 +305,10 @@ class _TileLayerState extends State<TileLayer> {
       }
     }
 
-    for (var z in toRemove) {
-      _removeTilesAtZoom(z);
-    }
+    // TODO
+    // for (var z in toRemove) {
+    //   _removeTilesAtZoom(z);
+    // }
 
     var level = _levels[zoom];
     var map = this.map;
